@@ -59,7 +59,8 @@ It's twofold; KDE Plasma already has a built-in bing image-of-the-day service, w
 
 It can run as a systemd job, or under cron the way the automated theme switching does.
 
-* Systemd: ```bash
+* Systemd:
+```bash
 : systemctl --user enable wallpaper.service
 : systemctl --user start wallpaper.service
 ```
@@ -68,7 +69,8 @@ I also have a plasma widget to control the wallpaper service:
 
 [!The _Command Output Settings_ window shows how I configure my wallpaper from my desktop, as well as giving a description of the image, provided by Bing.](./res/Screenshot_20230126_012944.png)
 
-* Cron: ```bash
+* Cron:
+```bash
 : crontab -e
 ...
 @reboot	cron.sh node get-wallpaper.js --refresh 600
