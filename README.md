@@ -15,6 +15,7 @@ However, for it to do anything useful, you need to set a few config options:
 {
 	"light": "/home/<user>/.local/share/color-schemes/<light>.colors",
 	"dark": "/home/<user>/.local/share/color-schemes/<dark>.colors",
+	"switcher": "plasma-theme",
 	"cache": "/home/<user>/.cache/theme.json",
 	"ipinfoToken": "<ipinfo.io API token>",
 	"switch": "07:00-19:00"
@@ -23,6 +24,7 @@ However, for it to do anything useful, you need to set a few config options:
 
 * `light`: Specifies the colour scheme to use for the light theme
 * `dark`: Specifies the colour scheme to use for the dark theme
+* `switcher`: Specifies the [plasam-theme-switcher executable](https://github.com/maldoinc/plasma-theme-switcher) (You'll have to build this yourself)
 * `cache`: Used internally for caching things
 * `ipinfoToken`: The API token for ipinfo.io
 	- This option is not strictly required, but if you wish to switch your themes in accordance to sunrise/sunset times, you will need an access token.
