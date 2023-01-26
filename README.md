@@ -67,7 +67,7 @@ It can run as a systemd job, or under cron the way the automated theme switching
 
 I also have a plasma widget to control the wallpaper service:
 
-[!The _Command Output Settings_ window shows how I configure my wallpaper from my desktop, as well as giving a description of the image, provided by Bing.](./res/Screenshot_20230126_012944.png)
+![The _Command Output Settings_ window shows how I configure my wallpaper from my desktop, as well as giving a description of the image, provided by Bing.](./res/Screenshot_20230126_012944.png)
 
 * Cron:
 ```bash
